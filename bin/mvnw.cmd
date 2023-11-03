@@ -57,7 +57,6 @@ set ERROR_CODE=0
 @setlocal
 
 @REM ==== START VALIDATION ====
-set JAVA_HOME=C:\Program Files\Amazon Corretto\jdk21.0.0_35
 if not "%JAVA_HOME%" == "" goto OkJHome
 
 echo.
